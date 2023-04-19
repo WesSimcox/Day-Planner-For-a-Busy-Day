@@ -21,3 +21,15 @@ $(function () {
   //
   // TODO: Add code to display the current date in the header of the page.
 });
+
+// Day.js
+
+// Gets the current date
+var now = dayjs()
+var d = new Date(2023, 4, 18)
+var day = dayjs(d)
+
+// Checks if date is Correct
+dayjs('2023-04-18', 'YYYY-MM-DD', true).isValid();
+
+console.log(d)
